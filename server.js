@@ -24,7 +24,7 @@ app.get('/', function(request, response) {
 var http = require("http");
 setInterval(function() {
     console.log('Ping!');
-    http.get("http://everydaymanga.herokuapp.com");
+    http.get("https://twitterbot--lmc2700.herokuapp.com/");
 }, 1200000);
 
 
