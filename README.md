@@ -1,28 +1,10 @@
-# EverydayManga
+#Trendy Locations
+Trendy Locations (@trendylocations) is a twitterbot that gathers Twitter's top 50 trending terms in the US using the Twitter API and finds a three-word combination of those terms which form a known what3words (what3words.com) address on Earth.
 
-EverydayManga is a Node.js Twitter bot. Every day, discover a gorgeous new - carefully picked - manga panel.
+##How it works
+Using the coordinates gathered from the what3words API, Google's Static Maps API inputs those values as parameters of its Static API link and returns a .png image of satellite photography at those coordinates. This photo is saved so that it can be later uploaded as media using Twitter API's POST method. The tweet message includes relevant data gathered from the what3words API at runtime, such as the address and the nearest recognizable region, town, or city.
 
-## Installation
+##Author
+Trendy Locations was created by Jorge Aquino with some initial inspiration provided by AndrewKeymolen, specifically regarding Twitter API media attachment and collection. StackOverflow was used extensively and some lines of code are provided from user responses on the site. The logic of the bot's location gathering was entirely my work, though.
 
-Feel free to use the code in the server.js file. I did not include the panels in this repo, nor the config file with the different keys.
-
-## Usage
-
-Visit [EverydayManga on Twitter](https://twitter.com/everydaymanga)
-
-## Author
-<b>Andrew Keymolen</b>  
-Contact: andrewkeymolen@gmail.com
-Website: [andrewkeymolen.com](https://andrewkeymolen.com/)
-GitHub: [@AndrewKeymolen](https://github.com/AndrewKeymolen)
-
-## Contributing
-
-Contributions, issues and feature requests are welcome!
-
-## Show your support
-
-Give a ⭐ if this project helped you!
-
-## License
-[MIT](https://choosealicense.com/licenses/mit/)
+###Inspiration for the bot was found on @sillygwailo's ThoughtStreams.io blog post titled "Twitter bot ideas." (https://thoughtstreams.io/sillygwailo/twitter-bot-ideas/).
