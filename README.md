@@ -1,4 +1,4 @@
-**Trendy Locations**
+###Trendy Locations
 
 Trendy Locations (@trendylocations) is a twitterbot that gathers Twitter's top 50 trending terms in the US using the Twitter API and finds a three-word combination of those terms which form a known what3words (what3words.com) address on Earth.
 
@@ -9,5 +9,7 @@ Using the coordinates gathered from the what3words API, Google's Static Maps API
 **Author**
 
 Trendy Locations was created by me, Jorge Aquino, for my LMC 2700 class. Some initial rudimetary twitterbot logic was inspired by AndrewKeymolen's EverydayManga repository, the logic was specifically regarding Twitter API media attachment and collection. StackOverflow was used extensively and some lines of code are provided from user responses on the site. The logic of the bot's location gathering was entirely my work, though.
+
+📝 [My Resume](https://aquino.design/resume.html) is viewable on my site [aquino.design](https://aquino.design/).
 
 Inspiration for the bot was found on @sillygwailo's ThoughtStreams.io blog post titled "Twitter bot ideas." (https://thoughtstreams.io/sillygwailo/twitter-bot-ideas/).
