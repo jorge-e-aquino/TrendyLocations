@@ -1,3 +1,7 @@
+rainbow
+bagle
+rich
+don
 a
 aa
 aaa
@@ -344,7 +348,7 @@ anchor
 ancient
 and
 andale
-andorra
+
 andrews
 angeles
 angels
@@ -3834,7 +3838,7 @@ haiti
 half
 halifax
 hall
-halloween
+
 halo
 ham
 hamburg
@@ -4140,7 +4144,7 @@ icons
 icq
 ict
 id
-idaho
+
 ide
 idea
 ideal
@@ -7252,7 +7256,7 @@ robinson
 robot
 robots
 robust
-rochester
+
 rock
 rocket
 rocks
