@@ -118,3 +118,4 @@ config.js
 images/
 
 # End of https://www.toptal.com/developers/gitignore/api/node
+*.txt
