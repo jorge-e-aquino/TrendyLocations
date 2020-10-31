@@ -119,3 +119,7 @@ images/
 
 # End of https://www.toptal.com/developers/gitignore/api/node
 *.txt
+coordinates.txt
+map.png
+nearestPlace.txt
+what3words.txt
